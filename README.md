@@ -4,9 +4,11 @@ COUSIN - a normalized measure of CUPrefs // Local version
 
 Dear user,
 
-THe local version is unavailable until COUSIN has been accepted by an editor.
+The local version is unavailable right now. You'll be granted access when our paper will be accepted ! 
 
 Sorry for the inconvenience. Please enjoy your COUSIN experience on the website http://cousin.ird.fr .
+
+If you have any question, please feel free to send me an email : jerome.bourret@ird.fr
 
 Regards,
 
