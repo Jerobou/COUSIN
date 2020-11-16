@@ -1,0 +1,32 @@
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sklearn/preprocessing/data.py:625: DataConversionWarning: Data with input dtype object were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sklearn/base.py:462: DataConversionWarning: Data with input dtype object were all converted to float64 by StandardScaler.
+  return self.fit(X, **fit_params).transform(X)
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/matplotlib/figure.py:98: MatplotlibDeprecationWarning: 
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  "Adding an axes using the same arguments as a previous axes "
+No handles with labels found to put in legend.
+
+
+#################################################################################
+#               Welcome on COUSIN (COdon Usage Similarity INdex)!               #
+#                                     V 1.0                                     #
+#         Created by Jerome Bourret, Samuel Alizon and Ignacio G. Bravo         #
+#               Any question ? Contact me : jerome.bourret@ird.fr               #
+#                                    Enjoy !                                    #
+#################################################################################
+
+	
+## IMPORTANT : You didn't give a list indicating optimal codons. Determining optimal codons with the reference (ones with greatest frequency) ##
+### Doing the mandatory "calculation step" of COUSIN. ###
+### Calculation step done !###
+### You have chosen the "clustering_analysis" additional step. ####
+## Doing clustering analysis... ##
+8
+The pyclustering core is not supported for platform 'darwin' (64bit).
+Please, contact to 'pyclustering@yandex.ru'.
+10
+## Clustering analysis done ! ##
+### IMPORTANT ### Some errors / warning arised during you analysis. Please check the log file to see what went wrong.
+This COUSIN analysis took 0 HH 0 MM 2.363 SS.

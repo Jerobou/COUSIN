@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  web:
+    image: thecodingmachine/php:7.1-v2-apache-node10
+    volumes:
+      - .:/var/www/html
+      - ~/.ssh:/home/docker/.ssh
+    labels:
+      - traefik.backend=app
+      - traefik.enable=true
+      - traefik.frontend.rule=Host:${SITE_URL}
+    environment:
+      PHP_INI_MAX_EXECUTION_TIME: 1000
+      PHP_INI_MEMORY_LIMIT: 2G
+    env_file:
+      - .env
+
+  traefik:
+    image: traefik:1.7
+    command: --docker --docker.exposedbydefault=false
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+volumes:
+  mysql_data:
+    driver: local

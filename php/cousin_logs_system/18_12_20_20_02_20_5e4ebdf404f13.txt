@@ -1,0 +1,20 @@
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+
+
+#################################################################################
+#               Welcome on COUSIN (COdon Usage Similarity INdex)!               #
+#                                     V 1.0                                     #
+#         Created by Jerome Bourret, Samuel Alizon and Ignacio G. Bravo         #
+#               Any question ? Contact me : jerome.bourret@ird.fr               #
+#                                    Enjoy !                                    #
+#################################################################################
+
+	
+#### You have chosen the "create_table" step. ####
+## creating a Codon Usage Table. ##
+## IMPORTANT : You didn't give a list indicating optimal codons. Determining optimal codons with the reference (ones with greatest frequency) ##
+## Your Codon Usage Table has been created in a kazusa-style format. ##
+### IMPORTANT ### Some errors / warnings arised during you analysis. Please check the log file to see what went wrong.
+### Doing the mandatory "calculation step" of COUSIN. ###
+### Calculation step done !###
+This COUSIN analysis took 0 HH 0 MM 0.48 SS.

@@ -1,0 +1,20 @@
+## WARNING : the header "FJ525876.1:2815-2857,3950-4142,4723-5440 Homo sapiens apolipoprotein E (APOE) gene, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "MG595979.1 Homo sapiens isolate TWH-1414-0-1 mutant tumor protein p53 (TP53) mRNA, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "KY500676.2:1-186,793-838,1026-1073,1375-1796 Homo sapiens isolate 00hurefPGF TNF gene, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "BC093731.1:96-3719 Homo sapiens epidermal growth factor (beta-urogastrone), mRNA (cDNA clone MGC:120766 IMAGE:7939576), complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "AH011307.2:1251-1296,1541-1669,2097-2208,2483-2630,2976-3107,3180-3245,3545-3613,3876-4001,4312-4440,4657-4871,5276-5363,5689-5791,6129-6208 Homo sapiens clone BAC 150E7 from Research Genetics AKT1 (AKT1) gene, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "AB451322.1 Homo sapiens VEGFA mRNA for vascular endothelial growth factor isoform VEGF165, complete cds, clone: FLJ08203AAAN" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "AF372214.2:1747-1765,1928-2118,3177-3290,3998-4144,5890-6057 Homo sapiens interleukin 6 (IL6) gene, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "AH007464.3:61-296,497-735,936-1046,1246-1439,1630-1880,2081-2215,2416-2596,2797-2979,3180-3281,3482-3601,3802-4020 Homo sapiens methylenetetrahydrofolate reductase (MTHFR) gene, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "AF542069.1:34-1863 Homo sapiens serum albumin (HSA) mRNA, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+
+## WARNING : the header "LC120323.1:71-1192 Homo sapiens ESR1 mRNA for human estrogen receptor alpha splice variant, CTERP-1, complete cds" contains forbidden characters (such as "\/", "\", "\?", "\%", "\*", "\:", "\|", """, "\<", "\>", "\."). These characters have been replaced by an underscore. ## 
+

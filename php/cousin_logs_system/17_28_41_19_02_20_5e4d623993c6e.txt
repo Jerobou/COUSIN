@@ -1,0 +1,21 @@
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+
+
+#################################################################################
+#               Welcome on COUSIN (COdon Usage Similarity INdex)!               #
+#                                     V 1.0                                     #
+#         Created by Jerome Bourret, Samuel Alizon and Ignacio G. Bravo         #
+#               Any question ? Contact me : jerome.bourret@ird.fr               #
+#                                    Enjoy !                                    #
+#################################################################################
+
+	
+## IMPORTANT : You didn't give a list indicating optimal codons. Determining optimal codons with the reference (ones with greatest frequency) ##
+### Doing the mandatory "calculation step" of COUSIN. ###
+### Calculation step done !###
+### You have chosen the "pattern_analysis" additional step. ####
+## Doing pattern analysis using the pattern file given with the "-z" parameter... ##
+## Note : since you didn't give a pattern file, no pattern analysis will be done on this dataset. That said, a density graph of all CDSs scores will be given. ##
+## Pattern analysis done ! ##
+### IMPORTANT ### Some errors / warning arised during you analysis. Please check the log file to see what went wrong.
+This COUSIN analysis took 0 HH 0 MM 2.069 SS.

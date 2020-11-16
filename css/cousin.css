@@ -1,0 +1,488 @@
+
+html {
+	width: 100%;
+	min-height: 100%;
+	position:relative;
+}
+
+/* ***************Article ***********************/
+body {
+	margin : 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	margin-bottom:50px;
+
+}
+
+#page-content-wrapper {
+	    width: 100%;
+	    position: relative;
+	    padding: 15px;
+			margin-top : 50px;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+	padding: 15px;
+	margin-top : 20px;
+	overflow: auto;
+
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: -250px;
+}
+
+#upwrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-bottom: -250px;
+}
+
+/***************************************************/
+
+#identifiants {
+	float: right;
+}
+
+#total{
+	max-height: 100%;
+	width: 100%;
+}
+
+
+
+/********************Navbar  ****************/
+/*Wrapper =  ma barre de navigation */
+
+#menu_image{
+	width: 40px;
+}
+
+#logo_image{
+	width: 45px;
+}
+
+#github_image {
+	width: 45px;
+}
+
+header {
+	color : white;
+}
+
+#title {
+	color: white;
+}
+
+
+nav {
+	width : 8%;
+	height : calc(100% - 100px);
+	position : relative;
+	display : inline-block;
+}
+
+.navbar {
+	margin-bottom:0px;
+	top : 0px;
+	z-index: 1;
+	border-radius: 0px;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar navbar-inverse {
+	position: relative;
+
+}
+
+/*****Logo de la navbar********************/
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+/********************************************/
+
+/************* Sidebar *********************/
+.sidebar-wrapper{
+	position : relative;
+}
+
+#wrapper-options {
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#wrapper {
+	padding-left: 0;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    	padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+		margin-top: 52px;
+    overflow-y: auto;
+    background: #e64a19;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#download_COUSIN {
+ 	font-size : xx-large;
+
+}
+
+#download_TUTO {
+ 	font-size : xx-large;
+
+}
+
+
+#wrapper.toggled #sidebar-wrapper {
+   	 width: 250px;
+}
+
+/************* Upbar *********************/
+.upbar-wrapper{
+	position : relative;
+}
+
+#upwrapper {
+	padding-top: 0;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#upwrapper.toggled {
+    	padding-top: 250px;
+}
+
+#upbar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 30%;
+    margin-left: 0px;
+		margin-top: 52px;
+    overflow-y: auto;
+		overflow-x: auto;
+    background: #d3d3d3;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+#upwrapper.toggled #upbar-wrapper {
+   	 height: 250px;
+}
+/***** Styles sideBar *******/
+
+.sidebar-nav {
+    position: absolute;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+		list-style: none;
+
+}
+
+.sidebar-nav li {
+
+    text-indent: 20px;
+    line-height: 40px;
+
+}
+
+/* Liens dans la sidebar */
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #e0e0e0;
+    background: rgba(255,255,255,0.2);
+}
+
+
+
+@media(min-width:768px) { /* A TRANSFORMER POUR LE UPBAR */
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+		#upwrapper {
+				padding-top: 250px;
+		}
+
+		#upwrapper.toggled {
+				padding-top: 0;
+		}
+
+		#upbar-wrapper {
+				height: 250px;
+		}
+
+		#upwrapper.toggled #upbar-wrapper {
+				height: 0;
+		}
+
+/******************** Contenu *******************/
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+		#upwrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-bottom: 0;
+    }
+}
+
+
+#page-content-wrapper {
+	width : 100%;
+	height : calc(100% - 100px);
+	position : relative;
+	display : inline-block;
+
+}
+
+/***************** Footer *****************************/
+
+
+.footer {
+	position: fixed;
+	bottom:0;
+	width : 100%;
+	height : 20px;
+	background : black ;
+	color : white ;
+	text-align: center;
+
+}
+
+/**************************************/
+
+/***************** Espace horizontal *****************************/
+
+esp_hor {
+	 margin-left: 10px;
+}
+
+#options {
+	display: table;
+	width:100%;
+	padding-bottom: 10px;
+}
+
+#option_1 {
+
+	display: table-cell;
+	position : relative;
+
+	width : 48%;
+}
+
+#option_2 {
+
+	display: table-cell;
+	position : relative;
+
+	right : 0;
+
+	width : 48%;
+}
+
+.form-fasta, .form-cu-table, .form-genetic-code, .form-pattern, .form-display-figures, .form-number-optimization, .form-reverse-frequencies, .form-optimization-kind, .form-sequences-format, .form-number-simulation, .form-optimal-codons, .form-simulation-routine, .form-dataset-1, .form-dataset-2, .form-comparison-type, .form-type-of-var, .form-number-cluster, .form-pattern-clustering, .square_box_options {
+
+	margin-bottom: 10px;
+
+}
+
+.form-fasta > * , .form-cu-table > *, .form-genetic-code > *, .form-pattern > *, .form-display-figures > *, .form-number-optimization > *, .form-reverse-frequencies > *, .form-optimization-kind > *, .form-sequences-format > *, .form-number-simulation > *, .form-optimal-codons > *, .form-simulation-routine > *, .form-dataset-1 > *, .form-dataset-2 > *, .form-comparison-type > *, .form-type-of-var > *, .form-number-cluster > *, .form-pattern-clustering > *, .square_box_options > * {
+
+	margin-bottom: 5px;
+
+}
+
+#results_container {
+	height : 400px;
+}
+
+#simulation_results_container {
+    height : 400px;
+}
+
+#graphical_results_container {
+	height : 750px;
+}
+
+#optimization_container {
+	height : 450px;
+}
+
+#clustering_results_container {
+	height : 750px;
+}
+
+.table-bordered th {
+	min-width = 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.table {
+    table-layout:fixed;
+
+}
+
+.table td {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.custom-file-upload-hidden {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+}
+.custom-file-upload {
+    display: block;
+    width: auto;
+    font-size: 16px;
+    margin-top: 30px;
+    //border: 1px solid #ccc;
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+.file-upload-wrapper {
+    position: relative;
+    margin-bottom: 5px;
+    //border: 1px solid #ccc;
+}
+.file-upload-input {
+    width: $file-upload-size;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 17px;
+    border: none;
+    background-color: $file-upload-color;
+    @include transition(all 0.2s ease-in);
+    float: left; /* IE 9 Fix */
+    &:hover, &:focus {
+        background-color: darken($file-upload-color, 5);
+        outline: none;
+    }
+}
+.file-upload-button {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 11px 20px;
+    border: none;
+    margin-left: -1px;
+    background-color: darken($file-upload-color, 10);
+    float: left; /* IE 9 Fix */
+    @include transition(all 0.2s ease-in);
+    &:hover {
+        background-color: darken($file-upload-color, 20);
+    }
+}
+
+.square_box_options{
+
+    width: 70%;
+		background-color: #F5F5F5;
+    border: solid 1.5px #e64a19;
+		border-radius: 15px 25px 25px;
+	 	padding: 20px;
+		text-align: left;
+
+}
+
+.img-logo {
+    position: relative;
+    padding: 10px;
+    float: left;
+    width:  120px;
+    height: 120px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    object-fit:scale-down;
+}
+
+.img-logo-sidebar {
+    width:  120px;
+    height: 120px;
+    object-fit:scale-down;
+}
+
+
+#bottom_div_index {
+  padding: 5px 5px 5px 10px;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+
+/**************************************/
